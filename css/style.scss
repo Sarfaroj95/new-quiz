@@ -1,0 +1,541 @@
+$primary:  #138BE4;
+$secondary: #11BCF2;
+$lightblack:#464353;
+$white:#ffffff;
+$lightbg: #e8ecf0 ;
+$shadow : #cbd3df;
+
+
+
+
+
+.main-section {
+   height: 100vh;
+   width: 100%;
+   background: linear-gradient(40deg,  $secondary 70%, 	$primary 30% );
+}   
+
+.video-section {
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(40deg,  $secondary 70%, 	$primary 30% );
+} 
+
+.jumbotron{
+    border-radius: 6px;
+    background-color: $white !important ;
+    box-shadow: 0px 9px 35px -19px rgba(0,0,0,0.75);
+   
+}
+
+.jumbotron-quiz{
+  height: 90%;
+  width: 95%;
+  border-radius: 6px;
+  box-shadow: 0px 9px 35px -19px rgba(0,0,0,0.75);
+ 
+}
+.jumbotron-video{
+     height: 90%;
+  width: 95%;
+  border-radius: 6px;
+  box-shadow: 0px 9px 35px -19px rgba(0,0,0,0.75);
+  margin: 20px;
+}
+
+.full-section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.left-section{
+     width: 50%;
+     padding: 50px;
+}
+
+.right-section{
+    width: 50%;
+    background-color: $lightbg !important;
+    margin-top: 50px;
+    margin-right: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ 
+
+
+}
+
+.logo{
+    height: auto;
+    width: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.title{
+    font-size: 36px;
+    font-weight: 600;
+    color: $primary !important;
+}
+.sub-title{
+     font-size: 14px !important;
+    font-weight: 500;
+    color: $lightblack !important;
+}
+// -2
+
+.time-quiz{
+    font-size: 30px;
+    font-weight: 400;
+    color: $primary !important;
+}
+
+.student-name{
+    padding: 30px;
+    color: $lightblack !important;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+.form-section{
+    width: 60%;
+    margin-top: 20px;
+}
+.icon{
+    height: 300px;
+   
+}
+
+.form-control{
+    border: none;
+    border-color: transparent;
+    border-bottom: 1px solid $primary !important;
+}
+.subject-bg{
+    background-color: $lightbg !important;
+}
+
+.button {
+  margin-top: 10px;
+  border: 1px solid $primary !important;
+  border-radius: 3px;
+  padding: 8px 22px;
+  display: inline-block;
+  background: linear-gradient(to right, $primary 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  color: $primary !important;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-position: left bottom;
+  cursor: pointer;
+  color: $white !important;
+}
+
+
+
+// Quiz page css
+
+.left-section-quiz{
+    width: 30%;
+    // height: 100%;
+    background-color: $lightbg !important;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+   
+}
+
+.right-section-quiz{
+    width: 70%;
+    padding: 30px;
+    background-color: $white !important;
+     border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: relative;
+   
+}
+.top-section-quiz{
+     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.question-top{
+    background-color: $primary !important;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.question-no{
+    font-size: 40px;
+    font-weight: 500;
+    color: $white !important;
+}
+.question-q{
+    height: 24px;
+    background-color: $primary !important;
+    margin-top: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -3px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.question-tag{
+    text-align: center;
+    color: $white !important;
+    font-size: 14px;
+    font-weight: 400;
+}
+.questions-quiz{
+    font-size: 20px;
+    font-weight: 400;
+    color: $primary !important;
+}
+.answer-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.form-quiz{
+   margin-top: 70px;
+}
+
+.total-quiz{
+    color: $lightblack !important;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.icon-quiz{
+    height: 160px;
+    width: auto;
+   margin-top: 70px;
+   
+}
+.btn-quiz-section{
+    padding-top: 1%;
+    text-align: center;
+}
+.btn-quiz-section-video{
+     
+    text-align: center;
+}
+.button-quiz{
+  
+//   border: 1px solid $primary !important;
+outline: none !important;
+border: none !important;
+  border-radius: 3px;
+  padding: 13px 35px;
+  display: inline-block;
+  background-color: $primary !important;
+  color: $primary !important;
+  font-weight: 600;
+  color: $white !important;
+  outline: none;
+  
+}
+.button-quiz:hover{
+    background-color: $white !important;
+    border: 1px solid $primary !important;
+    color: $primary !important;
+    
+}
+.audio-section-question{
+    margin-top: 30px;
+}
+
+.audio-title{
+    color: $lightblack;
+}
+
+.radio-quiz {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: $lightblack !important;
+}
+
+/* Hide the browser's default radio button */
+.radio-quiz input {
+//   position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-quiz:hover input ~ .checkmark {
+  background-color: rgb(141, 138, 138);
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-quiz input:checked ~ .checkmark {
+  background-color: $primary !important;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-quiz input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-quiz .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.top-left-quiz{
+    width: 100%;
+}
+
+.quiz-lest-section{
+    //  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  width: 100%;
+}
+
+
+
+// audio Section
+.palyer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;;
+}
+audio::-webkit-media-controls-panel{
+background-color: $lightbg !important;
+width:350px;
+ 
+
+}
+
+.iframe{
+    box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
+    padding: 6px;
+     width : 520px;
+      height:300px;
+}
+.img-question{
+     box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
+    padding: 6px;
+     width : 520px;
+      height:300px;
+      background-repeat: no-repeat;
+  background-size: auto;
+      
+      
+
+}
+
+audio{
+    background-color: $lightbg;
+    border-radius: 8px;
+//    box-shadow: 0 0 9px rgba(0, 0, 0, 0.24);
+box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
+}
+.audio{
+    box-shadow: 5px 5px 11px $shadow, -5px -5px 11px $shadow;
+    border-radius: 0px !important;;
+}
+
+
+
+// music
+
+
+
+// Mobile view
+
+@media only screen and (max-width: 500px) {
+.main-section {
+   height: 100%;
+   width: 100%;
+  background: linear-gradient(40deg,  $secondary 70%, 	$primary 30% );
+
+  
+}
+
+.jumbotron{
+    border-radius: 6px;
+    background-color: $white !important;
+}
+
+
+.left-section{
+     width: 100%;
+     padding: 20px;
+    // position: absolute;
+    padding: 16px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.right-section{
+    width: 100%;
+    background-color: $lightbg !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.logo{
+    height: auto;
+    width: 80px;
+    padding-bottom: 20px;
+}
+.title{
+    font-size: 26px;
+    font-weight: 600;
+    color: $primary !important;
+}
+.jumbotron-quiz{
+    height: 95%;
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    
+}
+
+// .time{
+//     font-size: 20px;
+//     font-weight: 400;
+//     color: $primary !important;
+// }
+
+.form-section{
+    width: 100%;
+    margin-top: 20px;
+}
+.icon{
+    height: 200px;
+   
+}
+ .full-section{
+    display: block;
+   
+   
+}
+
+
+.left-section-quiz{
+    width: 100%;
+    background-color: $lightbg !important;
+   border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  
+}
+
+
+.right-section-quiz{
+    width: 100%;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: $white !important;
+      border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    
+   
+}
+
+.form-quiz{
+   margin-top: 30px;
+}
+.answer-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.questions-quiz{
+    font-size: 16px;
+    font-weight: 500;
+    color: $primary !important;
+}
+
+.time-quiz{
+    font-size: 20px;
+    font-weight: 400;
+    color: $primary !important;
+    padding-top: 16px;
+}
+
+.total-quiz{
+    color: $lightblack !important;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.btn-quiz-section{
+    padding-top: 0.4%;
+    text-align: center;
+}
+
+.icon-quiz{
+    height: 120px;
+    width: auto;
+    margin-top: 0px;
+    padding-bottom: 20px; 
+}
+
+.quiz-lest-section{
+     position: relative;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.iframe{
+    box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
+    padding: 6px;
+     width : 420px;
+      height:220px;
+}
+
+}
+
+
+
+
