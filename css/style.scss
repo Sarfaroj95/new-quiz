@@ -89,12 +89,27 @@ $shadow : #cbd3df;
     font-weight: 400;
     color: $primary !important;
 }
-
+.user-contain{
+    text-align: center;
+    margin-top: 40px;
+}
 .student-name{
-    padding: 30px;
+    
     color: $lightblack !important;
     font-size: 22px;
     font-weight: 400;
+    line-height: 26px;
+}
+.student-name-bold{
+    font-size: 32px;
+    line-height: 26px;
+    font-weight: 600;
+    color: $lightblack;;
+}
+.student-dec{
+    color: $lightblack;
+    font-size: 16px;
+    margin: 30px;
 }
 
 
@@ -196,11 +211,27 @@ $shadow : #cbd3df;
     font-size: 20px;
     font-weight: 400;
     color: $primary !important;
+    text-align: center;
+    line-height: 30px;
+   
 }
 .answer-section{
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
+}
+.answer-section-video{
+  
+    margin-top: 50px; 
+    
+   justify-content: center;
+   display: flex;
+   width: 100%;
+}
+.anser-pic{
+    width: 75%;
+    margin-left: 70px;
+   
 }
 .form-quiz{
    margin-top: 70px;
@@ -231,7 +262,7 @@ $shadow : #cbd3df;
   
 //   border: 1px solid $primary !important;
 outline: none !important;
-border: none !important;
+ border: 1px solid $primary !important;
   border-radius: 3px;
   padding: 13px 35px;
   display: inline-block;
@@ -240,12 +271,13 @@ border: none !important;
   font-weight: 600;
   color: $white !important;
   outline: none;
-  
+  transition-duration: 0.4s;
 }
 .button-quiz:hover{
     background-color: $white !important;
     border: 1px solid $primary !important;
     color: $primary !important;
+     display: inline-block;
     
 }
 .audio-section-question{
@@ -351,28 +383,52 @@ width:350px;
     padding: 6px;
      width : 520px;
       height:300px;
+       border-radius: 4px;
 }
 .img-question{
      box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
-    padding: 6px;
-     width : 520px;
-      height:300px;
-      background-repeat: no-repeat;
-  background-size: auto;
+     padding: 6px;
+     width : auto;
+     height: 300px;
+     background-repeat: no-repeat;
+     background-size: contain;
       
       
 
 }
 
 audio{
-    background-color: $lightbg;
+    background-color: $lightbg !important;
     border-radius: 8px;
 //    box-shadow: 0 0 9px rgba(0, 0, 0, 0.24);
-box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
+    box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
 }
-.audio{
+.audio{ 
     box-shadow: 5px 5px 11px $shadow, -5px -5px 11px $shadow;
     border-radius: 0px !important;;
+}
+
+.img-ans-section{
+    height: 140px;
+    width: 180px;
+    // background-color: #11BCF2;
+   border: 1px solid $primary !important;
+    text-align: center;
+    border-radius: 4px;
+    // display: inline-block;
+    overflow: hidden;
+   
+
+
+    
+}
+.img-thumb{
+    //  box-shadow: 5px 5px 11px $shadow, -5px -5px 11px $shadow;
+    height: 130px;
+    width: auto;
+    background-size: contain;
+    background: no-repeat center;
+    display: inline;
 }
 
 
@@ -457,6 +513,7 @@ box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
 
 .left-section-quiz{
     width: 100%;
+   padding: 20px;
     background-color: $lightbg !important;
    border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -472,7 +529,7 @@ box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
     padding-right: 20px;
     padding-left: 20px;
     background-color: $white !important;
-      border-bottom-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
@@ -489,10 +546,13 @@ box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
     padding-top: 20px;
 }
 
+
 .questions-quiz{
     font-size: 16px;
     font-weight: 500;
     color: $primary !important;
+    text-align: center;
+    line-height: 20px;
 }
 
 .time-quiz{
@@ -516,8 +576,8 @@ box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
 .icon-quiz{
     height: 120px;
     width: auto;
-    margin-top: 0px;
-    padding-bottom: 20px; 
+    margin-top: 10px;
+    padding-bottom: 10px; 
 }
 
 .quiz-lest-section{
@@ -534,6 +594,30 @@ box-shadow: 0px 2px 11px -2px rgba(148, 146, 148, 1);
       height:220px;
 }
 
+.anser-pic{
+    width: 75%;
+    margin-left: 0px;
+}
+
+.student-name{
+    
+    color: $lightblack !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+}
+.student-name-bold{
+    font-size: 22px;
+    line-height: 10px;
+    font-weight: 600;
+    color: $lightblack;;
+}
+
+.student-dec{
+    color: $lightblack;
+    font-size: 16px;
+    margin: 10px;
+}
 }
 
 
