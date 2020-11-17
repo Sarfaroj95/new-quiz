@@ -112,6 +112,26 @@ $shadow : #cbd3df;
     margin: 30px;
 }
 
+.ans-tag{
+    color: green;
+    font-size: 22px;
+    font-weight: 600;
+}
+.wrong-tag{
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+}
+.dec{
+    font-size: 18px;
+    color: $lightblack;
+    padding-top: 10px;
+    text-align: center;
+}
+.explain{
+    font-size: 20px;
+    color: $lightblack;
+}
 
 .form-section{
     width: 60%;
