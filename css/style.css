@@ -129,7 +129,8 @@
 
 .explain {
   font-size: 20px;
-  color: #464353;
+  color: #138BE4;
+  font-weight: 500;
 }
 
 .form-section {
@@ -601,6 +602,15 @@ audio {
     color: #464353;
     font-size: 16px;
     margin: 10px;
+  }
+  .img-question {
+    -webkit-box-shadow: 0px 2px 11px -2px #949294;
+            box-shadow: 0px 2px 11px -2px #949294;
+    padding: 6px;
+    width: auto;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 /*# sourceMappingURL=style.css.map */
