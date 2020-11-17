@@ -120,11 +120,15 @@
   font-weight: 600;
 }
 
+.list-dec {
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .dec {
   font-size: 18px;
   color: #464353;
   padding-top: 10px;
-  text-align: center;
 }
 
 .explain {
@@ -611,6 +615,26 @@ audio {
     height: 220px;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+  .ans-tag {
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .wrong-tag {
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .dec {
+    font-size: 14px;
+    color: #464353;
+    padding-top: 10px;
+  }
+  .explain {
+    font-size: 16px;
+    color: #138BE4;
+    font-weight: 500;
   }
 }
 /*# sourceMappingURL=style.css.map */
