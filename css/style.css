@@ -487,6 +487,16 @@ audio {
   background-color: #138BE4 !important;
 }
 
+.you {
+  background-color: #464353 !important;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.you-text {
+  font-size: 22px !important;
+}
+
 @media only screen and (max-width: 500px) {
   .main-section {
     height: 100%;
@@ -669,7 +679,7 @@ audio {
   .main-leader {
     height: 100%;
     width: 100%;
-    margin: 0px;
+    margin: 8px;
     border-radius: 6px;
   }
   .table-header {

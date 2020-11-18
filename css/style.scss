@@ -480,6 +480,14 @@ audio{
 .pagination > li.active > a{
     background-color: $primary !important;
 }
+.you{
+    background-color: $lightblack !important;
+    color: $white;
+    font-weight: 600;;
+}
+.you-text{
+    font-size: 22px !important;
+}
 
 
 // .w-20{
@@ -726,7 +734,7 @@ audio{
 .main-leader{
     height: 100%;
     width: 100%;
-    margin: 0px;
+    margin: 8px;
     border-radius: 6px;
 }
 .table-header{
