@@ -16,28 +16,21 @@
 </head>
 
 <body onload="startTime()">
-    <div class="video-section">
+    <div class="video-section formobile">
         <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="jumbotron-video">
+            <div class="jumbotron-video no-shadow">
                 <div class="full-section">
-                    <div class="left-section-quiz">
+                    <div class="left-section-quiz mobile-2">
 
                         <div class="d-flex justify-content-center">
                             <img class="icon-quiz" src="./assets/clock.svg" />
                         </div>
                         <div class="user-contain">
-                            <p class="student-name">Your Name </p>
-                            <p class="student-name-bold">Ronak Jain</p>
+                            <!-- <p class="student-name-bold">Ronak Jain</p> -->
                             <p class="student-name">Current Score </p>
-                            <p class="student-name-bold">02/30</p>
-                            <p class="student-name">Current Rank </p>
                             <p class="student-name-bold">03</p>
-                        </div>
-                        <div>
-                            <p class="student-dec">The quiz link should only activate at pre defined time by the
-                                admin.Once the link is
-                                activated ,quiz takers will need to
-                                enter their name</p>
+                            <p class="student-name">Current Rank </p>
+                            <p class="student-name-bold">02/120</p>
                         </div>
                     </div>
 
@@ -58,6 +51,9 @@
                                 <h1 class="time-quiz" id="demo"></h1>
                             </div>
                         </div>
+                        <div class="mobile">
+                            <p style="text-align: right; margin-top: -20px;">Rank : 02/120 | Score : 03</p>
+                        </div>
 
 
 
@@ -67,8 +63,7 @@
                         <div class="audio-section-question">
                             <form>
                                 <div>
-                                    <h1 class="questions-quiz">We consider this an evolution of an Essay question with
-                                        RecordRTC buttons available to students.</h1>
+                                    <h1 class="questions-quiz">What is the bird name ?</h1>
                                 </div>
 
                                 <!-- <div class="palyer">
@@ -76,19 +71,18 @@
                                 </div> -->
 
                                 <div class="palyer">
-
-                                    <img class="img-question" src="./assets/question-mark.png" />
+                                    <img class="img-question" src="./assets/d03b846e0d53bca1a9070ac0c79964f0.png" />
                                 </div>
 
                                 <div class="form-group mt-3">
                                     <div class="answer-section">
                                         <div>
                                             <label class="radio-quiz">
-                                                Kolkata
+                                                (A) Albatross Bird
                                                 <input type="radio" checked="checked" name="radio">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <label class="radio-quiz">New Delhi
+                                            <label class="radio-quiz">(B) Peregrine Falcon
                                                 <input type="radio" name="radio">
                                                 <span class="checkmark"></span>
                                             </label>
@@ -97,11 +91,11 @@
 
 
 
-                                            <label class="radio-quiz">Mumbai
+                                            <label class="radio-quiz">(C) Swift bird
                                                 <input type="radio" name="radio">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <label class="radio-quiz">Pune
+                                            <label class="radio-quiz">(D) Ostrich Bird
                                                 <input type="radio" name="radio">
                                                 <span class="checkmark"></span>
                                             </label>
@@ -111,10 +105,10 @@
                                     </div>
 
                                 </div>
-                                <div class="btn-quiz-section-video">
+                                <!-- <div class="btn-quiz-section-video">
                                     <hr class="" />
                                     <button class="button-quiz">Submit</button>
-                                </div>
+                                </div> -->
                             </form>
 
                         </div>
@@ -129,7 +123,7 @@
 
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Nov 20, 2020 10:00:00").getTime();
+        var countDownDate = new Date("Nov 21, 2020 10:00:00").getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function () {

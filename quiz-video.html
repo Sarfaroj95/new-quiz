@@ -26,18 +26,11 @@
                             <img class="icon-quiz" src="./assets/clock.svg" />
                         </div>
                         <div class="user-contain">
-                            <p class="student-name">Your Name </p>
-                            <p class="student-name-bold">Ronak Jain</p>
+                            <!-- <p class="student-name-bold">Ronak Jain</p> -->
                             <p class="student-name">Current Score </p>
-                            <p class="student-name-bold">02/30</p>
-                            <p class="student-name">Current Rank </p>
                             <p class="student-name-bold">03</p>
-                        </div>
-                        <div>
-                            <p class="student-dec">The quiz link should only activate at pre defined time by the
-                                admin.Once the link is
-                                activated ,quiz takers will need to
-                                enter their name</p>
+                            <p class="student-name">Current Rank </p>
+                            <p class="student-name-bold">02/120</p>
                         </div>
                     </div>
 
@@ -58,6 +51,9 @@
                                 <h1 class="time-quiz" id="demo"></h1>
                             </div>
                         </div>
+                        <div class="mobile">
+                            <p style="text-align: right; margin-top: -20px;">Rank : 02/120 | Score : 03</p>
+                        </div>
 
 
 
@@ -67,8 +63,8 @@
                         <div class="audio-section-question">
                             <form>
                                 <div>
-                                    <h1 class="questions-quiz">We consider this an evolution of an Essay question with
-                                        RecordRTC buttons available to students.</h1>
+                                    <h1 class="questions-quiz">Play the video and answer</h1>
+
                                 </div>
 
                                 <!-- <div class="palyer">
@@ -84,40 +80,62 @@
                                 </div>
 
                                 <div class="form-group mt-3">
-                                    <div class="answer-section">
-                                        <div>
-                                            <label class="radio-quiz">
-                                                Kolkata
-                                                <input type="radio" checked="checked" name="radio">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <label class="radio-quiz">New Delhi
-                                                <input type="radio" name="radio">
-                                                <span class="checkmark"></span>
-                                            </label>
+                                    <div class="answer-section-video">
+                                        <div class="anser-pic">
+                                            <div class="pb-3">
+                                                <h6 class="">Please select your answer.</h6>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <label class="radio-quiz">
+                                                        <div class="img-ans-section">
+                                                            <img class="img-thumb"
+                                                                src="./assets/uyZWW7-broad-winged-albatross-png-free-download.png" />
+                                                        </div><span class="list-dec">(A)</span>
+                                                        <input type="radio" name="radio">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 ">
+                                                    <label class="radio-quiz">
+                                                        <div class="img-ans-section">
+                                                            <img class="img-thumb"
+                                                                src="./assets/032060_P004_Peregrine.png" />
+
+                                                        </div><span class="list-dec">(B)</span>
+                                                        <input type="radio" name="radio">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 ">
+                                                    <label class="radio-quiz">
+                                                        <div class="img-ans-section">
+                                                            <img class="img-thumb" src="./assets/download.jpg" />
+                                                        </div><span class="list-dec">(C)</span>
+                                                        <input type="radio" name="radio">
+                                                        <span class="checkmark"></span>
+
+                                                    </label>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 ">
+                                                    <label class="radio-quiz">
+                                                        <div class="img-ans-section">
+                                                            <img class="img-thumb"
+                                                                src="./assets/d03b846e0d53bca1a9070ac0c79964f0.png" />
+                                                        </div><span class="list-dec">(D)</span>
+                                                        <input type="radio" name="radio">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div>
-
-
-
-                                            <label class="radio-quiz">Mumbai
-                                                <input type="radio" name="radio">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <label class="radio-quiz">Pune
-                                                <input type="radio" name="radio">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                        </div>
-
-
                                     </div>
 
                                 </div>
-                                <div class="btn-quiz-section-video">
+                                <!-- <div class="btn-quiz-section-video">
                                     <hr class="" />
                                     <button class="button-quiz">Submit</button>
-                                </div>
+                                </div> -->
                             </form>
 
                         </div>
@@ -132,7 +150,7 @@
 
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Nov 20, 2020 10:00:00").getTime();
+        var countDownDate = new Date("Nov 21, 2020 10:00:00").getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function () {

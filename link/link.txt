@@ -1,0 +1,12 @@
+
+
+https://quiz-qilin.netlify.app/index.html
+https://quiz-qilin.netlify.app/quiz-audio.html
+https://quiz-qilin.netlify.app/quiz-video-image.html
+https://quiz-qilin.netlify.app/quiz-text-image.html
+https://quiz-qilin.netlify.app/quiz-image.html
+https://quiz-qilin.netlify.app/quiz-ans.html
+https://quiz-qilin.netlify.app/quiz-wrong-ans.html
+https://quiz-qilin.netlify.app/hostlead.html
+https://quiz-qilin.netlify.app/leaderboard.html
+https://quiz-qilin.netlify.app/leaderboard-2.html
